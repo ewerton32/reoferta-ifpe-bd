@@ -1,0 +1,91 @@
+[
+  {
+    "tipo": 1, //Cliente
+    "data_cadastro": "1970-01-01T00:00:00.000Z",  
+    "_id": "5ab86470adedb41e844f9086",
+    "nome": "Ewerton",
+    "data_nasc": "1981-05-16T00:00:00.000Z",
+    "endereco": {
+      "rua": "Rua Exemplo",
+      "numero": 1,
+      "complemento": "ap1",
+      "cep": "55290-000",
+      "bairro": "centro",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "conta_bancaria": {
+      "agencia": "4001",
+      "conta": "123123123123",
+      "digito": "1",
+      "operacao": 1,
+      "saldoReceber": 55,
+      "saldoEnviar": 56.1
+    },
+
+    "documentos_usuario": {
+      "rg_foto": "",
+      "compr_resid": "",
+      "cartao_banco":""
+
+    },
+    
+    "conta_acepay": {
+      "chave_privada": "54759eb3c090d83494e2d8041",
+      "chave_publica": "54759eb3c090d83494e2d8042",
+      "endereco_BTC": "54759eb3c090d83494e2d8043",
+      "saldo_BTC": 70.2
+    }
+   
+  }
+
+[
+  {
+    
+    "tipo": 2, //Administrador
+    "data_cadastro": "1970-01-01T00:00:00.000Z",
+    "_id": "5ab86470adedb41e844a3456",
+    "nome": "Ewerton",
+    "data_nasc": "1981-05-16T00:00:00.000Z",
+    "endereco": {
+      "rua": "Rua Exemplo",
+      "numero": 1,
+      "complemento": "ap1",
+      "cep": "55290-000",
+      "bairro": "centro",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    "conta_bancaria": {
+      "agencia": "",
+      "conta": "",
+      "digito": "1",
+      "operacao": 1,
+      "saldoReceber": 55,
+      "saldoEnviar": 56.1,
+         
+    },
+    "documentos_usuario": {
+      "rg_foto": "",
+      "compr_resid": "",
+      "cartao_banco":""
+
+    },
+
+    "conta_acepay": {
+      "chave_privada": "54759eb3c090d83494e2d8041",
+      "chave_publica": "54759eb3c090d83494e2d8042",
+      "endereco_BTC": "54759eb3c090d83494e2d8043",
+      "saldo_BTC": 70.2
+    },
+
+    "taxas_acepay": {
+      "taxa_deposito_real": 0.00,
+      "taxa_deposito_btc": 0.00,
+      "taxa_transferência_btc": 0.025,
+      "taxa_saque_real": 0.05  
+    }
+  }
+
+]
+  
