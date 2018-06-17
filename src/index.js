@@ -3,8 +3,10 @@ const express = require("express");
 const app = express();
 const indexRoutes = require("./routes/index");
 const tasksRoutes = require("./routes/tasks");
+const path = require ("path");
 
 //settings
+app.set("views",path.join(__dirname, "views"));//seta o diretorio raiz para pasta "vews"
 app.set("port", process.env.PORT || 3000);
 app.engine("html", require("ejs").renderFile);
 app.set("ver engine", "ejs");
